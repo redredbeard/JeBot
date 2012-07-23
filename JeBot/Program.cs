@@ -137,7 +137,7 @@ namespace JeBot
                 // Notify the user if they need to reconfigure their client for changing hosts
                 if (e.User.Nick == ChangingHostNotify.Nick)
                 {
-                    this.SendNotice(e.User.Nick, "Please reconfigure your client to use your NickServ password as your server password to avoid spamming when you join.");
+                    this.SendNotice(e.User.Nick, "Please reconfigure your client to use your NickServ password as your server password to avoid spamming when you join. See http://freenode.net/faq.shtml#nocloakonjoin");
                     ChangingHostNotify = null;
                 }
             }
