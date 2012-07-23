@@ -7,6 +7,9 @@ JeBot is a bot written by SirCmpwn. You can email him at sir@cmpwn.com. JeBot ha
 
 If you wish to keep up on development of JeBot, his sister bot is IAmABotAMA. IAmABotAMA hangs out in #IAmABotAMA and has the latest features. IAmABotAMA is unstable.
 
+Note that JeBot is open source. We use a white-hat policy with bug reporting. Anyone who finds a bug that will allow use of manager commands or bestow operatorship upon non-managers
+and *uses* it in #minecraft will earn a permenant ban from #minecraft. However, it is encouraged that you quietly notify a manager, or SirCmpwn, that this bug exists.
+
 Upcoming features for JeBot are shown in *italic*.
 
 Commands
