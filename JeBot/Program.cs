@@ -41,10 +41,10 @@ namespace JeBot
 
             // Userspace commands
             RegisterCommand("down", DoDown);
-            RegisterCommand("docs", (command) => "https://gist.github.com/a9065ade5dfefac657b0");
-            RegisterCommand("documentation", (command) => "https://gist.github.com/a9065ade5dfefac657b0"); // alias
-            RegisterCommand("help", (command) => "https://gist.github.com/a9065ade5dfefac657b0"); // alias
-            RegisterCommand("man", (command) => "https://gist.github.com/a9065ade5dfefac657b0"); // alias
+            RegisterCommand("docs", (command) => "https://github.com/irc-bot-framework/JeBot/README.md");
+            RegisterCommand("documentation", (command) => "https://github.com/irc-bot-framework/JeBot/README.md"); // alias
+            RegisterCommand("help", (command) => "https://github.com/irc-bot-framework/JeBot/README.md"); // alias
+            RegisterCommand("man", (command) => "https://github.com/irc-bot-framework/JeBot/README.md"); // alias
             RegisterCommand("hug", DoHug);
             RegisterCommand("identify", DoIdentify);
             RegisterCommand("karma", DoKarma);
