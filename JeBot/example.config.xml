@@ -9,5 +9,8 @@
     <channels>
       <channel name="#channel"></channel>
     </channels>
+    <managers>
+      <manager name="Example"></manager>
+    </managers>
   </server>
 </config>
