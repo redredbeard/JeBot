@@ -278,10 +278,10 @@ namespace JeBot
             // TODO: These might not work on the live server
             var factions = MinecraftServer.GetServer("216.185.144.243");
             var hardsurvival = MinecraftServer.GetServer("216.185.144.245");
-            var creative = MinecraftServer.GetServer("216.185.144.245");
+            var freebuild = MinecraftServer.GetServer("216.185.144.242");
             return "hardsurvival.badass-gaming.com: " + (hardsurvival.IsOnline ? "\u000303ONLINE \u000f[" + hardsurvival.ConnectedPlayers + "/" + hardsurvival.MaxPlayers + "]" : "\u000305OFFLINE") +
                     "\u000f | factions.badass-gaming.com: " + (factions.IsOnline ? "\u000303ONLINE \u000f[" + factions.ConnectedPlayers + "/" + factions.MaxPlayers + "]" : "\u000305OFFLINE") +
-                    "\u000f | creative.badass-gaming.com: " + (creative.IsOnline ? "\u000303ONLINE \u000f[" + creative.ConnectedPlayers + "/" + creative.MaxPlayers + "]" : "\u000305OFFLINE");
+                    "\u000f | freebuild.badass-gaming.com: " + (freebuild.IsOnline ? "\u000303ONLINE \u000f[" + freebuild.ConnectedPlayers + "/" + freebuild.MaxPlayers + "]" : "\u000305OFFLINE");
         }
 
         private string DoStatus(IrcCommand command)
